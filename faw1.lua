@@ -27,4 +27,4 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("faw tab", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("ini section",true/false) -- The 2nd argument is to tell if its only a Title and doesnt contain elements
+local Section = Tab:CreateSection("ini section",true) -- The 2nd argument is to tell if its only a Title and doesnt contain elements
