@@ -1,27 +1,27 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+lualocal Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "RIYAN",
-   LoadingTitle = "Rayfield Interface Suite",
-   LoadingSubtitle = "by Sirius",
+   Name = "fawSC",
+   LoadingTitle = "Faw Script V1.0.0",
+   LoadingSubtitle = "by Yancorporate",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Youtubeexamplehub"
+      FileName = "Fawproject"
    },
    Discord = {
-      Enabled = false,
-      Invite = "sirius", -- The Discord invite code, do not include discord.gg/
+      Enabled = true,
+      Invite = "indonesia", -- The Discord invite code, do not include discord.gg/
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Sirius Hub",
+      Title = "FawSc HUB",
       Subtitle = "Key System",
-      Note = "Join the discord (discord.gg/sirius)",
-      FileName = "Examplekey",
+      Note = "key On Tiktok",
+      FileName = "Keyfaw",
       SaveKey = true,
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin.com/raw/qkJWeYi4"}
+      Key = {"https://raw.githubusercontent.com/FawProject04/keyfaw/refs/heads/main/keyfaw"}
    }
 })
